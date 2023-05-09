@@ -11,19 +11,12 @@ A simple GUI (Graphical User Interface) application that registers users to a My
 
 1. Clone the repository
 2. Navigate to the project directory
-3. Build the project using Maven:
+3. Run project:
 
+``` 
+javac ./src/main/java/com/uninove/persistence/view/RegistrationApplication.java &&
+java ./src/main/java/com/uninove/persistence/view/RegistrationApplication
 ```
-./mvnw clean install
-```
-
-4. Run the project using Maven wrapper:
-
-```
-./mvnw spring-boot:run
-```
-
-5. The application will start on http://localhost:8080
 
 ## Usage
 
